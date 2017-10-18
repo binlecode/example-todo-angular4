@@ -19,7 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/global.css",
+        "assets/todomvc-app.css",
+        "assets/todomvc-common.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
