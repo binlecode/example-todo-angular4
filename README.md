@@ -1,4 +1,32 @@
+
+
+
 # Example Todo App in Angular 4
+
+## quick notes 02-08-2020
+
+nodejs - 8.16.2
+npm - 6.4.1
+
+install local 1.4.5 @angular/cli
+
+```bash
+npm install @angular/cli@1.4.5
+```
+and to run ng cli command locally do `node_modules/.bin/ng <cmd>`
+
+When running `ng serve`, during `node-gyp rebuild` in case of error:
+```
+Error: Command failed: /Users/binle/.pyenv/shims/python2
+pyenv: python2: command not found
+```
+That's most because pyenv global version is 3.x, not 2.x. To fix it:
+```
+pyenv local 2.<some-minor-version-installed>
+```
+This adds a `.python-version` file to the local folder, which pyenv to pick the specified (2.x) version locally so `python2` command is available.
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
