@@ -8,12 +8,13 @@
 nodejs - 8.16.2
 npm - 6.4.1
 
+
 ```bash
 nvm list
 nvm install 8.6.2
 ```
 
-install local 1.4.5 @angular/cli
+Install local @angular/cli@1.4.5:
 
 ```bash
 npm install @angular/cli@1.4.5
